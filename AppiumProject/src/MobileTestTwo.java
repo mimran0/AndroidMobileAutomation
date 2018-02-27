@@ -61,6 +61,9 @@ public class MobileTestTwo {
 		String vContactName=driver.findElement(By.id("com.android.contacts:id/large_title")).getText();
 		Thread.sleep(7000);
 		Assert.assertEquals(vContactName, "Mr md shahajada imran, Sr.");
+		//finding native mobile app element using content-desc property
+		driver.findElement(By.xpath("//*[@content-desc = 'More options']")).click();
+		
 	}
 
 	public static void HitEnter(int NumberOfEnter) {
