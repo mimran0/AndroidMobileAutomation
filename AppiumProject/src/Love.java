@@ -15,7 +15,7 @@ public class Love {
 		// TODO Auto-generated method stub
 		WebDriver driver=null;
 		DesiredCapabilities dc=new DesiredCapabilities();
-		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "AndS");
+		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "And1");
 		dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.android.contacts");
 		dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.android.contacts.activities.PeopleActivity");
 		dc.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);

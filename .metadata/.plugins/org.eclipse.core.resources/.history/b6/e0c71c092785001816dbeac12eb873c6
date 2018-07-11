@@ -1,0 +1,11 @@
+
+public class t {
+
+	public static void main(String[] args) {
+		String vTime="12:22?PM";
+		vTime=vTime.replace("?", " ");
+		System.out.println("Time is "+vTime);
+
+	}
+
+}

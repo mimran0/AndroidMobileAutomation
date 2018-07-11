@@ -166,3 +166,78 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-02-27 12:19:32.386 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-02-27 12:20:30.318
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\imran'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-03-07 13:39:15.652 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-03-07 13:40:16.134
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-07 13:41:01.012
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\imran'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-03-25 20:47:41.707 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-25 20:50:09.055
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\imran'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-07-11 10:57:50.779 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-11 10:58:29.886
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\imran'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-07-11 11:18:53.339
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\bin C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\byte-buddy-1.7.9.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0-sources.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-codec-1.10.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-exec-1.3.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-logging-1.2.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\gson-2.8.2.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\guava-23.6-jre.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpclient-4.5.3.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpcore-4.4.6.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\java-client-6.0.0-BETA4.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okhttp-3.9.1.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okio-1.13.0.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\selenium-server-standalone-3.11.0.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\junit-4.12.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\testng-6.14.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61572 -protocol json -d C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\test-output C:\Users\imran\AppData\Local\Temp\testng-eclipse--542507920\testng-customsuite.xml
+java -ea -classpath C:\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\bin:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\byte-buddy-1.7.9.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0-sources.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-codec-1.10.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-exec-1.3.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-logging-1.2.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\gson-2.8.2.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\guava-23.6-jre.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpclient-4.5.3.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpcore-4.4.6.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\java-client-6.0.0-BETA4.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okhttp-3.9.1.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okio-1.13.0.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\selenium-server-standalone-3.11.0.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\junit-4.12.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\testng-6.14.2.jar org.testng.remote.RemoteTestNG -serport 61572 -protocol json -d C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\test-output C:\Users\imran\AppData\Local\Temp\testng-eclipse--542507920\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-07-11 11:19:24.625
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\bin C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\byte-buddy-1.7.9.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0-sources.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-codec-1.10.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-exec-1.3.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-logging-1.2.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\gson-2.8.2.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\guava-23.6-jre.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpclient-4.5.3.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpcore-4.4.6.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\java-client-6.0.0-BETA4.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okhttp-3.9.1.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okio-1.13.0.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\selenium-server-standalone-3.11.0.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\junit-4.12.jar C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\testng-6.14.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61589 -protocol json -d C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\test-output C:\Users\imran\AppData\Local\Temp\testng-eclipse--1208847042\testng-customsuite.xml
+java -ea -classpath C:\eclipse\plugins\org.testng.eclipse_6.9.11.201604020423\lib\testng-remote.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\bin:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\byte-buddy-1.7.9.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0-sources.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\client-combined-3.11.0.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-codec-1.10.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-exec-1.3.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\commons-logging-1.2.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\gson-2.8.2.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\guava-23.6-jre.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpclient-4.5.3.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\httpcore-4.4.6.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\java-client-6.0.0-BETA4.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okhttp-3.9.1.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\okio-1.13.0.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\selenium-server-standalone-3.11.0.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\junit-4.12.jar:C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\lib\testng-6.14.2.jar org.testng.remote.RemoteTestNG -serport 61589 -protocol json -d C:\Users\imran\workspace_Appium\JavaProjectForMobileAutomation\test-output C:\Users\imran\AppData\Local\Temp\testng-eclipse--1208847042\testng-customsuite.xml

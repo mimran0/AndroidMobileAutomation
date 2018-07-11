@@ -57,12 +57,16 @@ public class MobileTestTwo {
 		//driver.findElement(By.name("Email")).sendKeys("imranlimon01@gmail.com");
 
 		driver.findElement(By.id("com.android.contacts:id/menu_save")).click();
-		Thread.sleep(4000);
-		String vContactName=driver.findElement(By.id("com.android.contacts:id/large_title")).getText();
 		Thread.sleep(7000);
+		String vContactName=driver.findElement(By.id("com.android.contacts:id/large_title")).getText();
+		Thread.sleep(3000);
 		Assert.assertEquals(vContactName, "Mr md shahajada imran, Sr.");
 		//finding native mobile app element using content-desc property
 		driver.findElement(By.xpath("//*[@content-desc = 'More options']")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("android:id/title")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("android:id/button1")).click();
 		
 	}
 
