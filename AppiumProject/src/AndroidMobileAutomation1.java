@@ -34,10 +34,15 @@ public class AndroidMobileAutomation1 {
 		driver.findElement(By.id("com.android.contacts:id/floating_action_button")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.id("com.android.contacts:id/expansion_view")).click();
+		Thread.sleep(3000);
 		driver.findElement(By.name("Name prefix")).sendKeys("Mr");
+		Thread.sleep(3000);
 		driver.findElement(By.name("First name")).sendKeys("md");
+		Thread.sleep(3000);
 		driver.findElement(By.name("Middle name")).sendKeys("shahajada");
+		Thread.sleep(3000);
 		driver.findElement(By.name("Last name")).sendKeys("Imran");
+		Thread.sleep(3000);
 		driver.findElement(By.name("Name suffix")).sendKeys("Sr");
 		Thread.sleep(3000);
 		driver.findElement(By.id("com.android.contacts:id/menu_save")).click();

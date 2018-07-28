@@ -14,7 +14,7 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.Platform"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By.ByName"/>
 <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>
