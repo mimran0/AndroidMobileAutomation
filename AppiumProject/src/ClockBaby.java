@@ -42,10 +42,10 @@ public class ClockBaby {
 		String vDate=ODate.getText();
 		System.out.println("Date is "+vDate);
 		
-		driver.findElement(By.id("com.android.deskclock:id/menu_button")).click();
+		/*driver.findElement(By.id("com.android.deskclock:id/menu_button")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.name("Night mode")).click();
-		
+		*/
 
 	}
 

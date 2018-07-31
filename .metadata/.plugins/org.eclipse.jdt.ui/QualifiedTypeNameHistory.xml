@@ -12,9 +12,11 @@
 <fullyQualifiedTypeName name="io.appium.java_client.remote.MobileCapabilityType"/>
 <fullyQualifiedTypeName name="io.appium.java_client.remote.AndroidMobileCapabilityType"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.Platform"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.By.ByName"/>
 <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByName"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>

@@ -50,10 +50,10 @@ public class MobileTestTwo {
 		Thread.sleep(1000);
 		driver.findElement(By.name("Name suffix")).sendKeys("Sr");
 		Thread.sleep(1000);
-		HitEnter(1); //Hit enter from keyboard once
-		driver.findElement(By.name("Phone")).sendKeys("3474846905");
-		Thread.sleep(1000);
-		HitEnter(1); //hit enter from keyboard once
+		//HitEnter(1); //Hit enter from keyboard once
+		//driver.findElement(By.name("Phone")).sendKeys("3474846905");
+		//Thread.sleep(1000);
+		//HitEnter(1); //hit enter from keyboard once
 		//driver.findElement(By.name("Email")).sendKeys("imranlimon01@gmail.com");
 
 		driver.findElement(By.id("com.android.contacts:id/menu_save")).click();
