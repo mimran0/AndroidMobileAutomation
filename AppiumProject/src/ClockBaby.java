@@ -1,5 +1,6 @@
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
@@ -46,6 +47,9 @@ public class ClockBaby {
 		Thread.sleep(2000);
 		driver.findElement(By.name("Night mode")).click();
 		*/
+		
+		List<WebElement> MyFuckenList=driver.findElements(By.tagName("content-desc"));
+		System.out.println(MyFuckenList.size());
 
 	}
 
