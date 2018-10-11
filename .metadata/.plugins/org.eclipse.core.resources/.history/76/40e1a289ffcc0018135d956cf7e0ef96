@@ -1,0 +1,54 @@
+/**
+ * 
+ */
+package Calendar;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+/**
+ * @author md shahajada imran
+ * TestSet contains native app automation of "Calendar"
+ *
+ */
+public class TestSetOne {
+	WebDriver driver = null;
+	@BeforeTest
+	public void BeforTest(){
+		System.out.println("before test");
+		
+		DesiredCapabilities dc = new DesiredCapabilities();
+		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "AndS");
+		dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.android.calendar");
+		dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.android.calendar.AllInOneActivity");
+		dc.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
+
+		try {
+			driver = new RemoteWebDriver(new URL("http://127.0.0.1:4723/wd/hub"), dc);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	//Requirement 101: TBD
+	@Test(enabled=true)
+	public void TC_101_TBD() throws InterruptedException{
+		
+
+		System.out.println("Hello");
+		System.out.println(driver.toString());
+		Thread.sleep(1000);
+	}
+	
+}

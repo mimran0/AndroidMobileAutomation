@@ -48,8 +48,8 @@ public class ClockBaby {
 		driver.findElement(By.name("Night mode")).click();
 		*/
 		
-		List<WebElement> MyFuckenList=driver.findElements(By.tagName("content-desc"));
-		System.out.println(MyFuckenList.size());
+		//List<WebElement> MyFuckenList=driver.findElements(By.tagName("content-desc"));
+		//System.out.println(MyFuckenList.size());
 
 	}
 

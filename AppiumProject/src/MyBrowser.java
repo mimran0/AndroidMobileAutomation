@@ -52,7 +52,8 @@ public class MyBrowser {
 		
 		//List<WebElement> MyFuckenList=driver.findElements(By.xpath("//android.widget.EditText[@content-desc='Email or Phone']"));
 		//List<WebElement> MyFuckenList=driver.findElements(By.cssSelector("Spinner[content-desc*='Enter your search term']"));
-		driver.findElement(By.xpath("//*[@content-desc='Create New Account']")).click();
+		//"//*[@content-desc = 'Create New Account']"
+		driver.findElement(By.xpath("//*[@content-desc = 'Go back']")).click();
 		List<WebElement> MyFuckenList=driver.findElements(By.xpath("//*[@content-desc='Create New Account']"));
 		//List<WebElement> MyFuckenList=driver.findElements(By.tagName("content-desc"));
 		System.out.println(MyFuckenList.size());
